@@ -1,3 +1,9 @@
-S(document).ready(function(){
-    console.log("se cargó");
+$(document).ready(function(){
+    console.log("se cargó correctamente jQuery");
+
+
+
+
+
+
 });
