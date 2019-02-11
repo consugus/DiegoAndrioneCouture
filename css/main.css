@@ -50,7 +50,8 @@ header {
     background-image: url("../img/backgrounds/black-silk.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 94vh;
+    height: 93vh;
+    width: 100vw;
 }
 
 #top {
@@ -127,33 +128,43 @@ header {
     background-color: coral;
     font-family: 'AdobeDevanagari';
     text-transform: uppercase;
-    height: 40px;
+    height: 6vh;
+    width: 100vw;
 }
 
 #bar ul{
+    height: 6vh;
     width: 600px;
-    margin: 0 auto;
     text-align: center;
+    margin: 0px auto;
+
+
 }
 
 #bar ul li{
     list-style: none;
     display: inline-block;
-    margin: 10 auto;
-    height: 20px;
-    padding-top: 2vh;
-
-}
-
-#bar ul li:hover{
-    background-color: blueviolet;
+    height: inherit;
+    font-weight: bold;
+    margin: 15px auto;
 }
 
 #bar ul li a{
     text-decoration: none;
-    color:black;
-    margin: 20px;
-    font-weight: bold;
+    color:white;
+    margin: 0 20px;
+}
+
+#bar ul li:hover{
+    background-color: darkred;
+}
+
+
+
+.fixed{
+    position: fixed;
+    width: inherit;
+    top: 0;
 }
 
 
@@ -162,7 +173,7 @@ header {
 /********************************/
 
 .galeria{
-    height: 94vh;
+    height: 150vh; /* 94vh */
 }
 
 
