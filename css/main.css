@@ -19,11 +19,12 @@
         url('../fonts/free_booter/FREEBSC_.ttf'),
 
 }
+
 /********************************/
 /************ Header ************/
 /********************************/
 
-.hero{
+.hero {
     /* background: white; */
     height: 20px;
     margin: 0 auto;
@@ -31,7 +32,7 @@
     padding: 25px;
 }
 
-.hero .redes-sociales a{
+.hero .redes-sociales a {
     margin: 0 15px;
 }
 
@@ -103,16 +104,16 @@ header {
     letter-spacing: 15px;
 }
 
-#contacto{
-    margin-top:10vh;
+#contacto {
+    margin-top: 10vh;
 }
 
-#contacto ul{
+#contacto ul {
     width: 500px;
     margin: 0 auto
 }
 
-#contacto ul li{
+#contacto ul li {
     list-style: none;
     color: white;
     text-align: center
@@ -124,7 +125,7 @@ header {
 /************ Bar ************/
 /********************************/
 
-#bar{
+#bar {
     background-color: coral;
     font-family: 'AdobeDevanagari';
     text-transform: uppercase;
@@ -132,7 +133,7 @@ header {
     width: 100vw;
 }
 
-#bar ul{
+#bar ul {
     height: 6vh;
     width: 600px;
     text-align: center;
@@ -141,27 +142,29 @@ header {
 
 }
 
-#bar ul li{
+#bar ul li {
+    padding-left: 10px;
+    padding-right: 10px;
     list-style: none;
     display: inline-block;
     height: inherit;
     font-weight: bold;
-    margin: 15px auto;
+    margin: 0 auto;
+    line-height: 6vh;
 }
 
-#bar ul li a{
+#bar ul li a {
     text-decoration: none;
-    color:white;
-    margin: 0 20px;
+    color: white;
+
 }
 
-#bar ul li:hover{
-    background-color: darkred;
+#bar ul li:hover {
+    background-color: maroon;
+    height: inherit;
 }
 
-
-
-.fixed{
+.fixed {
     position: fixed;
     width: inherit;
     top: 0;
@@ -172,8 +175,9 @@ header {
 /************ Footer ************/
 /********************************/
 
-.galeria{
-    height: 150vh; /* 94vh */
+.galeria {
+    height: 150vh;
+    /* 94vh */
 }
 
 
@@ -194,6 +198,6 @@ header {
 /********************************/
 /************ Footer ************/
 /********************************/
-footer p{
+footer p {
     text-align: right;
 }
