@@ -20,6 +20,13 @@
 
 }
 
+h1{
+    font-family: "AdobeDevanagari";
+    text-transform: uppercase;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
 /********************************/
 /************ Header ************/
 /********************************/
@@ -213,6 +220,7 @@ header {
     text-transform: uppercase;
     height: 6vh;
     width: 100vw;
+    transition: all 1s ease;
 }
 
 #bar ul {
@@ -220,8 +228,6 @@ header {
     width: 600px;
     text-align: center;
     margin: 0px auto;
-
-
 }
 
 #bar ul li {
@@ -233,17 +239,18 @@ header {
     font-weight: bold;
     margin: 0 auto;
     line-height: 6vh;
+    transition: background-color 1s ease;
 }
 
 #bar ul li a {
     text-decoration: none;
     color: white;
-
 }
 
 #bar ul li:hover {
     background-color: maroon;
     height: inherit;
+    transition: all 1s ease;
 }
 
 .fixed {
@@ -279,6 +286,20 @@ section {
 
 
 
+/********************************/
+/************ Galería ************/
+/********************************/
+
+
+#sobreMiTrabajo{
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    width: 1000px;
+    height: 300px;
+    background-color: aqua;
+}
+
 
 
 
@@ -286,9 +307,13 @@ section {
 /************ Galería ************/
 /********************************/
 
-.galeria {
-    height: 150vh;
-    /* 94vh */
+#galeria {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    width: 1000px;
+    height: 200px;
+    background-color: aqua;
 }
 
 
@@ -304,5 +329,7 @@ section {
 /************ Footer ************/
 /********************************/
 footer p {
+    height: 50px;
+    line-height: 50px;
     text-align: right;
 }
