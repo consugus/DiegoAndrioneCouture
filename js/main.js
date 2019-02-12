@@ -1,5 +1,4 @@
 $(document).ready(function(){
-    console.log("se cargó correctamente jQuery");
 
     var windowHeight = $(window).height();
     console.log("Window Heigth: " + windowHeight);
@@ -23,6 +22,15 @@ $(document).ready(function(){
     });
 
 
+    // Slider
+    $('#slider').bxSlider({
+        mode: 'fade',
+        captions: true,
+        // autoControls: true,
+        auto: true,
+        stopAutoOnClick: true,
+        pager: true
+    });
 
 
 

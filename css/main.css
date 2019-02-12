@@ -24,6 +24,43 @@
 /************ Header ************/
 /********************************/
 
+#top{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+/* Configuración para mobile */
+@media screen and (min-width: 640px)  {
+    #top {
+        height: 100px;
+        background-color: yellow;
+    }
+}
+
+/* Configuración para Tablet */
+@media screen and (min-width: 1200px) {
+    #top {
+        height: 100px;
+        background-color: lightblue;
+    }
+}
+
+/* Configuración para Desktop */
+@media screen and (min-width: 1400px) {
+    #top {
+        height: 100px;
+        background-color: pink;
+    }
+}
+
+
+
+body {
+    background-color: mistyrose;
+}
+
+
 .hero {
     /* background: white; */
     height: 20px;
@@ -59,10 +96,55 @@ header {
     height: 10vh;
 }
 
+
+
 #text {
     margin: 0 auto;
     top: 50px;
 }
+
+
+/* Configuración para mobile */
+@media (min-width: 640px) and (orientation: landscape) {
+    #text {
+        height: 200px;
+        margin-top: 50px;
+    }
+}
+
+/* Configuración para Tablet */
+@media (min-width: 1200px) and (orientation: landscape) {
+    #text {
+        height: 300px;
+        margin-top: 100px;
+    }
+}
+
+/* Configuración para Desktop */
+@media (min-width: 1400px) and (orientation: landscape) {
+    #text {
+        height: 350px;
+        margin-top: 150px;
+    }
+}
+
+/* Configuración para mobile */
+@media (min-width: 360px) and (orientation: portrait) {
+    #text {
+        height: 600px;
+        margin-top: 450px;
+    }
+}
+
+/* Configuración para mobile */
+@media (min-width: 800px) and (orientation: portrait) {
+    #text {
+        height: 600px;
+        margin-top: 450px;
+    }
+}
+
+
 
 .general-text {
     color: white;
@@ -168,23 +250,46 @@ header {
     position: fixed;
     width: inherit;
     top: 0;
+    z-index: 2;
 }
 
 
+
+
+
+
+
+
+
+
+/* header{
+    display: none;
+} */
+
+
 /********************************/
-/************ Footer ************/
+/************ Slider ************/
+/********************************/
+
+section {
+    width: 1000px;
+    height: 800px;
+    margin:0 auto;
+}
+
+
+
+
+
+
+/********************************/
+/************ Galería ************/
 /********************************/
 
 .galeria {
     height: 150vh;
     /* 94vh */
 }
-
-
-
-
-
-
 
 
 
